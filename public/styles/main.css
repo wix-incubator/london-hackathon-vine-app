@@ -119,5 +119,9 @@ body {
 }
 
 .settings .container {
-    width: 400px;
+    width: 500px;
+}
+
+.settings .container .intro {
+    margin-top: 15px;
 }

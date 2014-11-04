@@ -4,7 +4,7 @@
         <div class="logo">
             <img width="86" src="/bower_components/wix-ui-lib2/images/wix_icon.png" alt="logo"/>
         </div>
-        <div class="">
+        <div class="intro">
             <p>
                 This app lets you display Vine videos on your site.
             </p>
@@ -14,21 +14,6 @@
 
     <!-- Settings box -->
     <div wix-ctrl="Accordion">
-
-    <div class="acc-pane">
-        <h3>General Settings</h3>
-        <div class="acc-content">
-            <p>Number of videos to display:</p>
-            <ul class="list">
-                <li>
-                    <div
-                    wix-ctrl="Spinner"
-                    wix-param="numberOfVideos"
-                    wix-options="{ maxValue:500, value: 6, size: 'small' }"></div>
-                </li>
-            </ul>
-        </div>
-    </div>
 
     <!-- Color Pickers -->
     <div class="acc-pane">
@@ -40,16 +25,31 @@
                     <div wix-param="searchBoxColor" wix-ctrl="ColorPickerWithOpacity" wix-options="{startWithColor: 'color-1'}"></div>
                 </li>
                 <li wix-label="Search button">
-                    <div wix-param="buttonColor " wix-ctrl="ColorPickerWithOpacity" wix-options="{startWithColor: 'color-1'}"></div>
+                    <div wix-param="buttonColor " wix-ctrl="ColorPickerWithOpacity" wix-options="{startWithColor: 'color-2'}"></div>
                 </li>
                 <li wix-label="Video Description">
-                    <div wix-param="descriptionColor" wix-ctrl="ColorPicker" wix-options="{startWithColor:'color-1'}"></div>
+                    <div wix-param="descriptionColor" wix-ctrl="ColorPicker" wix-options="{startWithColor:'color-3'}"></div>
                 </li>
                 <li wix-label="Video Username">
-                    <div wix-param="usernameColor" wix-ctrl="ColorPicker" wix-options="{startWithColor:'color-1'}"></div>
+                    <div wix-param="usernameColor" wix-ctrl="ColorPicker" wix-options="{startWithColor:'color-4'}"></div>
                 </li>
                 <li wix-label="Video Background">
-                    <div wix-param="bgColor" wix-ctrl="ColorPickerWithOpacity" wix-options="{startWithColor: 'color-1'}"></div>
+                    <div wix-param="bgColor" wix-ctrl="ColorPickerWithOpacity" wix-options="{startWithColor: 'color-5'}"></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="acc-pane">
+        <h3>General Settings</h3>
+        <div class="acc-content">
+            <p>Number of videos to display:</p>
+            <ul class="list">
+                <li>
+                    <div
+                    wix-ctrl="Spinner"
+                    wix-param="numberOfVideos"
+                    wix-options="{ maxValue:500, value: 6, size: 'large' }"></div>
                 </li>
             </ul>
         </div>
