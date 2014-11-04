@@ -1,0 +1,11 @@
+<div id="video-container" ng-click="fullPage(video)">
+    <div ng-show="showMetaTop" class="meta">
+        <metavideo></metavideo>
+    </div>
+    <div id="container">
+        <video id="video" autoplay="" muted="" preload="auto" loop poster="" ng-src="{{ video.videoUrl }}"></video>
+    </div>
+    <div ng-hide="showMetaTop" class="meta">
+        <metavideo></metavideo>
+    </div>
+</div>

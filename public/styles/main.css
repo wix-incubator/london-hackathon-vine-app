@@ -1,0 +1,123 @@
+html {
+    border-radius: 6px;
+}
+body {
+    padding-top: 20px;
+}
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('fonts/glyphicons-halflings-regular.eot');
+    src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+.jumbotron {
+    width: 400px;
+    margin-bottom: 14px;
+}
+
+.form-inline {
+    width: 400px;
+}
+
+.form-inline input {
+    display: inline-block;
+    width: 321px;
+    margin-right: 3px;
+}
+
+.container .jumbotron {
+    padding: 30px;
+}
+
+.content {
+    margin: 0 auto;
+}
+
+.video {
+    float: left;
+    width: 300px;
+    height: 476px;
+}
+
+#video-container {
+    border: 1px solid #D7D6D1;
+    border-radius: 4px;
+    margin: 20px 20px 20px;
+}
+
+#container video {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.meta {
+    padding: 10px 10px 14px 10px;
+    min-height: 34px;
+    position: relative;
+    background: #fff;
+    color: #333332;
+}
+
+.author {
+    padding-right: 20px;
+    position: absolute;
+}
+
+.meta .avatar {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+.post-content {
+    padding-left: 40px;
+}
+
+.meta p.description {
+    font-size: 14px;
+    margin: 0;
+}
+
+.meta .username {
+    color: #00bf8f;
+    font-weight: 500;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+    margin-bottom: 20px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer p {
+    margin: 20px 0;
+}
+
+.settings .container {
+    width: 400px;
+}

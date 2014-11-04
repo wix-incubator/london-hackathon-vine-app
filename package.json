@@ -1,0 +1,40 @@
+{
+  "name": "wix-app-getting-started",
+  "version": "0.1.0",
+  "description": "A sample Wix app using Node.js, Express 4 and Angular.js",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "*",
+    "express": "~4.9.x",
+    "grunt-bower-install": "~1.0.0",
+    "grunt-cli": "~0.1.9",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "jade": "1.3.1",
+    "jsdom": "^0.10.5",
+    "load-grunt-tasks": "~0.4.0",
+    "request": "^2.34.0",
+    "superagent": "^0.17.0",
+    "time-grunt": "~0.2.1",
+    "underscore-node": "^0.1.2"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wix/london-hackathon-vine-app.git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "wixApp"
+  ],
+  "license": "apache license 2.0"
+}

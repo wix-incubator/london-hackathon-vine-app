@@ -1,0 +1,34 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <% include ../views/partials/head %>
+    <style wix-style>
+        body {
+            background-color: {{style.bgColor}};
+        }
+        .jumbotron {
+            background-color: {{style.searchBoxColor}};
+        }
+        .btn-primary {
+            background-color: {{style.buttonColor}};
+        }
+        .meta p.description {
+          color: {{style.descriptionColor}};
+          {{style.descriptionFont Body-S}};
+        }
+        .meta .username {
+           color: {{style.usernameColor}};
+           {{style.usernameFont Body-S}};
+        }
+    </style>
+</head>
+<body ng-app="vineApp">
+<div class="container" ng-view=""></div>
+</body>
+
+<script>
+    angular.module('vineApp').constant('config', {
+      standAlone: <%- debug %>
+    });
+</script>
+</html>

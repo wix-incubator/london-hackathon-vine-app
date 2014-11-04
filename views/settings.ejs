@@ -1,0 +1,16 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <link type="text/css" href="/bower_components/wix-ui-lib2/ui-lib.min.css" rel="stylesheet">
+    <% include ../views/partials/head %>
+    <script src="/bower_components/wix-ui-lib2/ui-lib.min.js"></script>
+</head>
+<body ng-app="vineApp" class="settings">
+<div class="container" ng-view=""></div>
+</body>
+<script>
+    angular.module('vineApp').constant('config', {
+        view: 'settings'
+    });
+</script>
+</html>

@@ -1,0 +1,20 @@
+<div class="jumbotron">
+    <h2>Vine App</h2>
+    <p class="lead">Search for Vine videos, or see <span ng-click="search('popular')">popular</span> videos.</p>
+</div>
+<form class="form-inline" ng-submit="search(q || 'wix')">
+    <div>
+        <input type="text" class="form-control" ng-model="q" placeholder="Search vine.co" tabindex="1" focused="focused">
+        <button type="submit" ng-click="search(q || 'wix')" class="btn btn-primary">Search</button>
+    </div>
+</form>
+<div class="row content">
+    <h1>{{keyword}}</h1>
+    <div class="video" ng-repeat="video in videos">
+        <vinevideo></vinevideo>
+    </div>
+</div>
+
+<div class="footer">
+    <p><span class="glyphicon glyphicon-heart"></span> from the Wix SDK team</p>
+</div>
