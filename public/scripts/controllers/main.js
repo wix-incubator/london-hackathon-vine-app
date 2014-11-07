@@ -20,7 +20,7 @@ angular.module('vineApp')
                 _.each(videos, function (video) {
                     video.videoUrl = $sce.trustAsResourceUrl(video.videoUrl);
                     video.avatarUrl = $sce.trustAsResourceUrl(video.avatarUrl);
-                })
+                });
                 $scope.videos = videos;
                 DataService.videos = videos;
                 DataService.keyword = keyword;

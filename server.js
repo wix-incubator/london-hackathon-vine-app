@@ -1,6 +1,6 @@
 var express = require('express');
-var Authentication = require('./authentication.js');
-var routes = require('./routes.js');
+var Authentication = require('./app/authentication.js');
+var routes = require('./app/routes.js');
 var app = express();
 
 app.use(express.static(__dirname + '/public'));
@@ -29,5 +29,5 @@ function authenticate(req, res, next) {
     }
 }
 
-app.listen(process.env.PORT || 3010)
+app.listen(process.env.PORT || 3010);
 console.log('Express app started on port %d', process.env.PORT || 3010);
