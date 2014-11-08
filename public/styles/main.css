@@ -125,3 +125,7 @@ body {
 .settings .container .intro {
     margin-top: 15px;
 }
+
+.settings .keyword input {
+    height: 30px;
+}

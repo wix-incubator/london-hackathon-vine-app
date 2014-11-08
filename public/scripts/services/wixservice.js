@@ -25,7 +25,9 @@ angular.module('vineApp')
                         callback(6);
                     }
                 });
+            },
+            get: function (val) {
+                return Wix.UI.get(val);
             }
-
         };
     });

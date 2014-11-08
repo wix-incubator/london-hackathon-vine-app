@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('vineApp')
-    .controller('MainCtrl', function ($scope, $window, $sce, $routeParams, $timeout, Wixservice, DataService, config, Search) {
+    .controller('MainCtrl', function ($scope, $window, $sce, $routeParams, $timeout, Wixservice, DataService, config, Search, FirebaseService) {
         $scope.search = function (q) {
             var keyword = q || config.query;
             if(!config.standAlone){
@@ -40,6 +40,8 @@ angular.module('vineApp')
         if ($routeParams.q) {
             $scope.search($routeParams.q);
         } else {
-            $scope.search('London');
+            FirebaseService.get('keyword', function(value) {
+                $scope.search(value);
+            });
         }
     });

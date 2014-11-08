@@ -1,5 +1,5 @@
 var url = require('url');
-var APP_SECRET = '2c762c19-6d68-497c-aa7b-d7e43333bf16';
+var APP_SECRET = 'cf15b709-8201-4ed4-bc55-ea8d3b81b933';
 var crypto = require("crypto");
 
 function Authentication() {
