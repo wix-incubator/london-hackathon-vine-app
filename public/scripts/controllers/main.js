@@ -39,5 +39,7 @@ angular.module('vineApp')
 
         if ($routeParams.q) {
             $scope.search($routeParams.q);
+        } else {
+            $scope.search('London');
         }
     });
