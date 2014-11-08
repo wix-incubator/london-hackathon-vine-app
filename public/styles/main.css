@@ -129,3 +129,11 @@ body {
 .settings .keyword input {
     height: 30px;
 }
+
+.settings .left {
+    float: left;
+}
+
+.settings .general-settings input {
+    margin-right: 5px;
+}
