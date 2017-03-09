@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "ejs": "*",
-    "express": "~4.9.x",
+    "express": "~4.15.2",
     "grunt-bower-install": "~1.0.0",
     "grunt-cli": "~0.1.9",
     "grunt-contrib-clean": "^0.6.0",
