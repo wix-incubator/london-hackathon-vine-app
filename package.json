@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "ejs": "*",
-    "express": "~4.9.x",
+    "express": "~4.16.0",
     "grunt-bower-install": "~1.0.0",
     "grunt-cli": "~0.1.9",
     "grunt-contrib-clean": "^0.6.0",
@@ -16,7 +16,7 @@
     "jsdom": "^0.10.5",
     "load-grunt-tasks": "~0.4.0",
     "request": "^2.34.0",
-    "superagent": "^0.17.0",
+    "superagent": "^2.0.0",
     "time-grunt": "~0.2.1",
     "underscore-node": "^0.1.2"
   },
