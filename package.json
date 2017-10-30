@@ -16,7 +16,7 @@
     "jsdom": "^0.10.5",
     "load-grunt-tasks": "~0.4.0",
     "request": "^2.34.0",
-    "superagent": "^0.17.0",
+    "superagent": "^3.7.0",
     "time-grunt": "~0.2.1",
     "underscore-node": "^0.1.2"
   },
